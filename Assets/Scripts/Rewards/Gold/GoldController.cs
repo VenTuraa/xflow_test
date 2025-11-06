@@ -29,9 +29,7 @@ namespace Gold
         {
             _data.CurrentGold -= amount;
             if (_data.CurrentGold < 0)
-            {
                 _data.CurrentGold = 0;
-            }
         }
         
         public bool HasEnoughGold(int amount)

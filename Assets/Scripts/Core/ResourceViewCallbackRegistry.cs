@@ -18,25 +18,19 @@ namespace Core
         public void Register(Action callback)
         {
             if (callback != null && !_callbacks.Contains(callback))
-            {
                 _callbacks.Add(callback);
-            }
         }
         
         public void Unregister(Action callback)
         {
             if (callback != null)
-            {
                 _callbacks.Remove(callback);
-            }
         }
         
         public void InvokeAll()
         {
             foreach (var callback in _callbacks)
-            {
                 callback?.Invoke();
-            }
         }
     }
 }

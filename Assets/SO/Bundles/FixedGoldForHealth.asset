@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f2b0c789f799bb44d9d2cf521b1523a2, type: 3}
-  m_Name: FixedHealthForGold
+  m_Name: FixedGoldForHealth
   m_EditorClassIdentifier: Shop::Shop.Bundle
-  _bundleName: Fixed health for gold
+  _bundleName: Fixed gold for fixed health
   _costs:
   - {fileID: 11400000, guid: 9a46c4b32a5f9b247a0c5ee7c1100130, type: 2}
   _rewards:

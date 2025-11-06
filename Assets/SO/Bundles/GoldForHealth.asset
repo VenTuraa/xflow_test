@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f2b0c789f799bb44d9d2cf521b1523a2, type: 3}
-  m_Name: HealthForGold
+  m_Name: GoldForHealth
   m_EditorClassIdentifier: Shop::Shop.Bundle
   _bundleName: Gold for Health
   _costs:

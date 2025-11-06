@@ -29,9 +29,7 @@ namespace Health
         {
             _data.CurrentHealth -= amount;
             if (_data.CurrentHealth < 0)
-            {
                 _data.CurrentHealth = 0;
-            }
         }
 
         public bool HasEnoughHealth(int amount)

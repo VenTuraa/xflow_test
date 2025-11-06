@@ -17,9 +17,7 @@ namespace Core
         public void Register(IResourceViewUpdater updater)
         {
             if (updater != null && !_updaters.Contains(updater))
-            {
                 _updaters.Add(updater);
-            }
         }
         
         public void Unregister(IResourceViewUpdater updater)
@@ -30,9 +28,7 @@ namespace Core
         public void RefreshAll()
         {
             foreach (var updater in _updaters)
-            {
                 updater?.Refresh();
-            }
         }
     }
 }
