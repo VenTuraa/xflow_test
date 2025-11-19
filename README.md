@@ -72,7 +72,7 @@ Each domain contains:
 - Scene controllers and views:
   - `ShopSceneController` spawns bundle cards, wires callbacks for buy/info, and refreshes resource/UI after purchase.
   - `BundleDetailSceneController` shows a single card (without the info button) and supports purchase.
-  - `BundleCardView` handles "Купить" button state, shows "Обработка..." during delay, and exposes an optional "i" button.
+  - `BundleCardView` handles "Buy" button state, shows "Processing..." during delay, and exposes an optional "i" button.
   - `ShopView` manages card instances and wires resource header views through registries.
 
 ### UI / MVC Orientation
