@@ -86,8 +86,8 @@ Each domain contains:
 - After changes, resource views call `_onResourceChanged` which triggers update callbacks, causing shop cards to re-evaluate affordability.
 
 ### Purchase Lifecycle
-1) Player presses "Купить" on a card.
-2) Card switches to processing state; button shows "Обработка..." and becomes disabled.
+1) Player presses "Buy" on a card.
+2) Card switches to processing state; button shows "Processing..." and becomes disabled.
 3) `ShopController.PurchaseBundleAsync` waits 3s, then calls `Bundle.Purchase()`.
 4) `Bundle` applies all costs then all rewards.
 5) UI refresh via `ResourceViewUpdaterRegistry.RefreshAll()` and card state re-evaluation.
